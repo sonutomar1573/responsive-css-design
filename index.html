@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive landing page demonstrating modern CSS design.">
+  <title>Nova — Responsive Design</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#">NOVA<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#features">Features</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="#contact">Get started</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">DESIGN THAT MOVES WITH YOU</p>
+        <h1>Ideas become<br><span>extraordinary.</span></h1>
+        <p class="lead">A clean, responsive landing page built with modern CSS, flexible layouts and thoughtful details.</p>
+        <div class="hero-actions"><a class="button primary" href="#features">Explore design</a><a class="button secondary" href="#about">Learn more</a></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract gradient artwork" role="img"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="art-card"><span>✦</span><p>Creativity<br>in motion</p></div></div>
+    </section>
+    <section id="features" class="section">
+      <div class="section-heading"><p class="eyebrow">WHAT MAKES IT WORK</p><h2>Built for every screen.</h2><p>Responsive by design, not as an afterthought.</p></div>
+      <div class="features-grid">
+        <article class="feature"><div class="feature-icon">⌘</div><h3>Flexible layouts</h3><p>CSS Grid and Flexbox help content adapt naturally to different screen sizes.</p></article>
+        <article class="feature"><div class="feature-icon">◈</div><h3>Modern styling</h3><p>Reusable design tokens, balanced typography and subtle visual details.</p></article>
+        <article class="feature"><div class="feature-icon">↗</div><h3>Accessible</h3><p>Semantic HTML, visible focus states and an accessible mobile navigation toggle.</p></article>
+      </div>
+    </section>
+    <section id="about" class="about section"><div><p class="eyebrow">OUR APPROACH</p><h2>Less clutter.<br>More clarity.</h2></div><p>Thoughtful spacing, readable text and a clear visual hierarchy make this sample layout easy to explore on desktop, tablet and mobile. Customize the content, colors and sections to make it your own.</p></section>
+    <section id="contact" class="contact section"><div><p class="eyebrow">READY TO BEGIN?</p><h2>Make something<br>remarkable.</h2></div><a class="button primary" href="mailto:hello@example.com">Say hello ↗</a></section>
+  </main>
+  <footer><a class="logo" href="#">NOVA<span>.</span></a><p>Responsive CSS design demo · Built with HTML & CSS</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
